@@ -112,10 +112,5 @@ namespace Animal.Base
             //Debug.Log("Objective Complete called: " + gameObject.name);
             AnimController.SetBool(JumpB, true);
         }
-
-        private void OnMouseDown()
-        {
-            DialogDisplay();
-        }
     }
 }
